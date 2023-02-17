@@ -1,0 +1,17 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "idf.port": "/dev/ttyUSB1",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "inttypes.h": "c",
+    "i2c.h": "c",
+    "i2c_hal.h": "c",
+    "*.contiki": "cpp",
+    "esp_console.h": "c",
+    "*.inc": "c"
+  },
+  "idf.adapterTargetName": "esp32s3",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ]
+}
