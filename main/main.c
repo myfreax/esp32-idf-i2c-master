@@ -13,6 +13,8 @@ static const char *TAG = "i2c-master";
 #define I2C_MASTER_RX_BUF_DISABLE 0 /*!< I2C master doesn't need buffer */
 #define SLAVE_ADDRESS 0x0A
 #define I2C_SLAVE_TX_BUF_LEN 255
+#define WRITE_BIT I2C_MASTER_WRITE /*!< I2C master write */
+#define ACK_CHECK_EN 0x1           /*!< I2C master will check ack from slave*/
 
 int i2c_master_port = 0;
 static esp_err_t i2c_master_init(void) {
